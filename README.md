@@ -17,4 +17,4 @@ make && pip install . && python samples/run_cp_schemes.py
 
 [1] Rao Y S, Dutta R. Efficient attribute-based signature and signcryption realizing expressive access structures. International Journal of Information Security, 2016 81-109.
 
-[2] Ali El Kaafarani, Liqun Chen, Essam Ghadafi & James Davenport. Attribute-Based Signatures with User-Controlled Linkability. International Conference on Cryptology and Network Security, 2014, 256-269.
+[2] Ali El Kaafarani, Liqun Chen, Essam Ghadafi, James Davenport. Attribute-Based Signatures with User-Controlled Linkability. International Conference on Cryptology and Network Security, 2014, 256-269.
