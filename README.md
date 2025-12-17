@@ -25,8 +25,6 @@ This project depends on the **Charm-Crypto library** (version 0.50).
 > OpenSSL) and may not compile on newer Linux systems due to OpenSSL version
 > incompatibilities. We recommend Ubuntu 20.04 / 22.04 with Python 3.9.
 
----
-
 ## 2. Installing Charm-Crypto
 
 Charm is an external dependency and **not included** in this repository.
