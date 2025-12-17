@@ -1,14 +1,10 @@
 # FABS: Fast Attribute-Based Signatures
 
-This repository contains the Python artifact for the paper  
-**“FABS: Fast Attribute-Based Signatures”** (USENIX Security 2026).
+This repository contains the Python artifact for the paper  **“FABS: Fast Attribute-Based Signatures”** (USENIX Security 2026).
 
-The paper proposes highly efficient Attribute-Based Signature (ABS) schemes
-supporting Monotone Span Program (MSP) policies. The proposed constructions
-achieve linear-time key generation and signing, and require only two
-pairing operations for verification, which is the best known efficiency among
-MSP-based ABS schemes. Our schemes are built on Type-III pairings, support
-large universes, arbitrary attributes, and adaptive unforgeability.
+The paper proposes highly efficient Attribute-Based Signature (ABS) schemes supporting Monotone Span Program (MSP) policies. The proposed constructions
+achieve linear-time key generation and signing, and require only two pairing operations for verification, which is the best known efficiency among
+MSP-based ABS schemes. Our schemes are built on Type-III pairings, support large universes, arbitrary attributes, and adaptive unforgeability.
 To the best of our knowledge, this is the first open-source implementation of MSP-based ABS schemes.
 
 In addition to our proposed KP-ABS and SP-ABS schemes, this artifact also includes implementations of two representative prior works for comparison:
