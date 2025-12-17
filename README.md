@@ -81,6 +81,13 @@ This script:
 
 This demonstrates the functional correctness of the implementations.
 
+Note:
+In our implementation, the verification succeeds for FABS KP-ABS, FABS SP-ABS, and RD16 KP-ABS, as expected.
+
+The KCGD14 SP-ABS implementation, however, is expected not to pass verification. This behavior is anticipated and stems from ambiguities and underspecified details in the original scheme description of [2]. Our implementation strictly follows the definitions and algorithms as presented in the paper, without introducing additional assumptions or fixes. As a result, the observed verification failure reflects limitations of the original specification rather than an implementation error.
+
+Despite this, we include KCGD14 in our experiments to benchmark its runtime performance, which can be evaluated independently of functional correctness and is reported in the following section.
+
 ---
 
 ### 3.2 Performance Benchmarking
