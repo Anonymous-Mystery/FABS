@@ -85,6 +85,7 @@ This demonstrates the functional correctness of the implementations.
 
 ### 3.2 Performance Benchmarking
 
+As a start, create a empty folder under the main directory (where you can see Run.py and Measurements.py) named "Results".
 To measure runtime performance, run:
 
 ```bash
