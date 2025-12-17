@@ -45,7 +45,7 @@ Clone Charm and check out version 0.50:
 ```bash
 git clone https://github.com/JHUISI/charm.git
 cd charm
-git checkout 0.50
+git checkout 0.50 '''
 
 Create and activate a virtual environment (recommended for reproducibility):
 
