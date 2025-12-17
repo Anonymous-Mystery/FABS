@@ -143,6 +143,7 @@ and algorithmic step.
 ## 5. References
 
 [1] Y. S. Rao and R. Dutta,  *Efficient Attribute-Based Signature and Signcryption Realizing Expressive Access Structures*,  International Journal of Information Security, 2016.
+
 [2] A. El Kaafarani, L. Chen, E. Ghadafi, J. Davenport,  *Attribute-Based Signatures with User-Controlled Linkability*,  ACNS 2014.
 
 ---
