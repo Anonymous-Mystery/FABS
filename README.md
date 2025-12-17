@@ -55,16 +55,13 @@ After Charm is installed and the virtual environment is activated, return to
 the FABS project directory.
 
 3.1 Functional Correctness Test
-To test the correctness of all four ABS schemes (our KP-ABS, our SP-ABS, RD16,
-and KCGD14), run:
+To test the correctness of all four ABS schemes (our KP-ABS, our SP-ABS, RD16, and KCGD14), run:
 
 bash
 python Run.py
 This script:
 
-Executes Setup, KeyGen, Signing, and Verification for each scheme
-
-Prints whether each generated signature verifies successfully
+Executes Setup, KeyGen, Signing, and Verification for each scheme. Prints whether each generated signature verifies successfully
 
 This demonstrates the functional correctness of the implementations.
 
